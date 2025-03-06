@@ -1,5 +1,5 @@
 import { ICredentials } from "data/types/credentials";
-import { SalesPortalPage } from "./salesPortal.page";
+import { SalesPortalPage } from "pages/salesPortal.page";
 
 class LoginPage extends SalesPortalPage {
   readonly "emailInput" = () => cy.get("#emailinput");

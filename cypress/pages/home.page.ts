@@ -1,4 +1,4 @@
-import { SalesPortalPage } from "./salesPortal.page";
+import { SalesPortalPage } from "pages/salesPortal.page";
 
 class HomePage extends SalesPortalPage {
   readonly uniqueElement = () => cy.get(".welcome-text");
