@@ -1,0 +1,23 @@
+{
+  "name": "cypress-novice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/cypress": "^0.1.6",
+    "@types/cypress-dotenv": "^2.0.3",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^22.13.9",
+    "cypress": "^14.1.0",
+    "cypress-dotenv": "^3.0.1",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.8.2"
+  }
+}
