@@ -2,8 +2,8 @@ import homePage from "pages/home.page";
 import loginPage from "pages/login.page";
 
 class LoginPageService {
-  loginPage = loginPage;
-  homePage = homePage;
+  private loginPage = loginPage;
+  private homePage = homePage;
 
   loginAsAdmin() {
     this.loginPage.fillCredentials({ email: Cypress.env("USER_EMAIL"), password: Cypress.env("USER_PASSWORD") });

@@ -1,4 +1,4 @@
-import { ICredentials } from "data/types/credentials";
+import { ICredentials } from "data/types/credentials.types";
 import { SalesPortalPage } from "pages/salesPortal.page";
 
 class LoginPage extends SalesPortalPage {
